@@ -54,10 +54,13 @@ public class Window {
         // Initialize GLFW
 
         if (!glfwInit()) {
-
             throw new IllegalStateException("Unable to initialize GLFW");
-
         }
+
+        glfwSetCursorPosCallback(glfwWindow , MouseListener :: mousePosCallback);
+        glfwSetMouseButtonCallback(glfwWindow, MouseListener :: mouseButtonCallback);
+        glfwSetScrollCallback(glfwWindow, MouseListener :: mouseScrollCallback);
+
 
         // Configure GLFW
         glfwDefaultWindowHints();

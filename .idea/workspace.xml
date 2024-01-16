@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f1b85d-c4e9-40f2-b587-8b7836ad4ab5" name="Changes" comment="create Main and Window classes in it">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="d5f1b85d-c4e9-40f2-b587-8b7836ad4ab5" name="Changes" comment="add some basic methods in windows">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +118,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="mario.main" />
+      <option name="VM_PARAMETERS" value="-XstartOnFirstThread" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705358467376</updated>
       <workItem from="1705358468789" duration="10693000" />
-      <workItem from="1705393972461" duration="2177000" />
+      <workItem from="1705393972461" duration="2484000" />
     </task>
     <task id="LOCAL-00001" summary="git initialization">
       <option name="closed" value="true" />
@@ -166,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705363353845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add some basic methods in windows">
+      <option name="closed" value="true" />
+      <created>1705400416831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705400416831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +182,8 @@
     <MESSAGE value="git initialization" />
     <MESSAGE value="change Kotlin DSL to Groovy DSL" />
     <MESSAGE value="create Main and Window classes in it" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Main and Window classes in it" />
+    <MESSAGE value="add some basic methods in windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some basic methods in windows" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

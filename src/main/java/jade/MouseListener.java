@@ -25,7 +25,7 @@ public class MouseListener {
     public static MouseListener get() {
 
         if (MouseListener.instance == null) {
-            instance = new MouseListener();
+            MouseListener.instance = new MouseListener();
         }
         return MouseListener.instance;
     }
@@ -63,11 +63,11 @@ public class MouseListener {
         get().lastY = get().yPos;
     }
 
-    public static float getx() {
+    public static float getX() {
         return (float) get().xPos;
     }
 
-    public static float gety() {
+    public static float getY() {
         return (float) get().yPos;
     }
 

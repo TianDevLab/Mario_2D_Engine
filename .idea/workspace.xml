@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f1b85d-c4e9-40f2-b587-8b7836ad4ab5" name="Changes" comment="add Mouse Listener">
+    <list default="true" id="d5f1b85d-c4e9-40f2-b587-8b7836ad4ab5" name="Changes" comment="add Key Listener and tweak the Window class but have some bugs/can't fade to black">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/KeyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jade/MouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/MouseListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705358467376</updated>
       <workItem from="1705358468789" duration="10693000" />
-      <workItem from="1705393972461" duration="22920000" />
+      <workItem from="1705393972461" duration="25474000" />
     </task>
     <task id="LOCAL-00001" summary="git initialization">
       <option name="closed" value="true" />
@@ -196,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705443332088</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add Key Listener and tweak the Window class but have some bugs/can't fade to black">
+      <option name="closed" value="true" />
+      <created>1705447408489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705447408489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,14 +220,15 @@
     <MESSAGE value="update the gradle setting and reload" />
     <MESSAGE value="free the memory and terminate GLFW" />
     <MESSAGE value="add Mouse Listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Mouse Listener" />
+    <MESSAGE value="add Key Listener and tweak the Window class but have some bugs/can't fade to black" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Key Listener and tweak the Window class but have some bugs/can't fade to black" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/jade/Window.java</url>
-          <line>42</line>
+          <line>41</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">

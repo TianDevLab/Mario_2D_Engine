@@ -1,7 +1,6 @@
 package jade;
 
 import org.lwjgl.Version;
-import org.lwjgl.glfw.GLFW;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.opengl.GL;
 
@@ -64,17 +63,6 @@ public class Window {
             throw new IllegalStateException("Unable to initialize GLFW");
         }
 
-
-        try {
-            glfwSetCursorPosCallback(glfwWindow,MouseListener ::mousePosCallback);
-            glfwSetScrollCallback(glfwWindow,MouseListener ::mouseScrollCallback);
-            glfwSetMouseButtonCallback(glfwWindow,MouseListener ::mouseButtonCallback);
-            glfwSetKeyCallback(glfwWindow, KeyListener ::keyCallback);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
         // Configure GLFW
         glfwDefaultWindowHints();
         glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
@@ -92,6 +80,15 @@ public class Window {
 
         if (glfwWindow == NULL) {
             throw new IllegalStateException("failed to create a GLFW Window");
+        }
+
+        try {
+            glfwSetCursorPosCallback(glfwWindow, MouseListener::mousePosCallback);
+            glfwSetScrollCallback(glfwWindow, MouseListener::mouseScrollCallback);
+            glfwSetMouseButtonCallback(glfwWindow, MouseListener::mouseButtonCallback);
+            glfwSetKeyCallback(glfwWindow, KeyListener::keyCallback);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         // Make the OpenGL context current

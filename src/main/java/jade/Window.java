@@ -3,6 +3,7 @@ package jade;
 import org.lwjgl.Version;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.opengl.GL;
+import util.Time;
 
 import static org.lwjgl.glfw.Callbacks.glfwFreeCallbacks;
 import static org.lwjgl.glfw.GLFW.*;
@@ -110,6 +111,8 @@ public class Window {
     }
 
     public void loop() {
+        double beginTime = Time.getTime();
+        double endTime = Time.getTime();
 
         while (!glfwWindowShouldClose(glfwWindow)) {
             // Poll events
@@ -129,6 +132,10 @@ public class Window {
             }
 
             glfwSwapBuffers(glfwWindow);
+
+            endTime = Time.getTime();
+            double dt = endTime - beginTime;
+            beginTime = endTime;
         }
     }
 }

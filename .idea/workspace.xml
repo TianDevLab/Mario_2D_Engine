@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f1b85d-c4e9-40f2-b587-8b7836ad4ab5" name="Changes" comment="add delta time into loop method in Window.java">
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/LevelEditorScene.java" afterDir="false" />
+    <list default="true" id="d5f1b85d-c4e9-40f2-b587-8b7836ad4ab5" name="Changes" comment="add some Scenes">
       <change beforePath="$PROJECT_DIR$/src/main/java/jade/LevelScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/LevelScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jade/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jade/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.110497236",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -139,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705358467376</updated>
       <workItem from="1705358468789" duration="10693000" />
-      <workItem from="1705393972461" duration="33353000" />
+      <workItem from="1705393972461" duration="34527000" />
     </task>
     <task id="LOCAL-00001" summary="git initialization">
       <option name="closed" value="true" />
@@ -229,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705533641160</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add some Scenes">
+      <option name="closed" value="true" />
+      <created>1705536942458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705536942458</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +253,8 @@
     <MESSAGE value="solved fade to black issue" />
     <MESSAGE value="create a util package with a Time.java" />
     <MESSAGE value="add delta time into loop method in Window.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add delta time into loop method in Window.java" />
+    <MESSAGE value="add some Scenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some Scenes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,5 +270,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

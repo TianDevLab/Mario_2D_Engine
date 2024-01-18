@@ -13,6 +13,8 @@ public class LevelEditorScene extends Scene{
 
     @Override
     public void update(double dt) {
+        System.out.println((1/dt) + "FPS");
+
         if(!changingScene && KeyListener.isKeyPressed(KeyEvent.VK_SPACE)){
             changingScene = true;
         }
